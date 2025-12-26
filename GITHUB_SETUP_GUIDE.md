@@ -51,7 +51,7 @@ cd /Users/gt/NLLB_Translation/mlx-models-github
 ./setup_github.sh
 
 # 添加远程仓库（替换为您的实际 URL）
-git remote add origin https://github.com/gamhtoi/mlx-models.git
+git remote add origin https://github.com/biabia-55/mlx-models.git
 
 # 推送代码
 git push -u origin main
@@ -62,7 +62,7 @@ git push -u origin main
 在 GitHub 仓库页面：
 
 1. **About** (右上角)
-   - Website: `https://huggingface.co/gamhtoi`
+   - Website: `https://huggingface.co/biabia-55`
    - Topics: `mlx`, `apple-silicon`, `m4-max`, `ocr`, `translation`, `machine-learning`
 
 2. **README** 
@@ -123,7 +123,7 @@ README 中已包含以下徽章：
 ## 📚 Examples and Documentation
 
 For more examples and detailed documentation, see our GitHub repository:
-https://github.com/gamhtoi/mlx-models
+https://github.com/biabia-55/mlx-models
 ```
 
 **在 GitHub README 中**已经包含了 HF 模型链接。

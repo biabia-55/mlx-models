@@ -40,7 +40,7 @@ def main():
     print("🚀 Loading Hunyuan-MT-Chimera-7B-MLX-Q8...")
     
     # Load model
-    model_id = "gamhtoi/Hunyuan-MT-Chimera-7B-MLX-Q8"
+    model_id = "biabia-55/Hunyuan-MT-Chimera-7B-MLX-Q8"
     model, tokenizer = load(model_id)
     
     print("✅ Model loaded successfully!")

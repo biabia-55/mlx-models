@@ -11,7 +11,7 @@
 ### 1. PaddleOCR-VL-MLX
 **World's first MLX-native OCR model**
 
-- 🔗 [Model on Hugging Face](https://huggingface.co/gamhtoi/PaddleOCR-VL-MLX)
+- 🔗 [Model on Hugging Face](https://huggingface.co/biabia-55/PaddleOCR-VL-MLX)
 - 📦 Size: ~2GB
 - ⚡ Speed: 2-3s per image on M4 Max
 - 🎯 Use case: Document digitization, receipt processing, academic paper OCR
@@ -19,7 +19,7 @@
 ### 2. Hunyuan-MT-Chimera-7B-MLX-Q8
 **8-bit quantized multilingual translation model**
 
-- 🔗 [Model on Hugging Face](https://huggingface.co/gamhtoi/Hunyuan-MT-Chimera-7B-MLX-Q8)
+- 🔗 [Model on Hugging Face](https://huggingface.co/biabia-55/Hunyuan-MT-Chimera-7B-MLX-Q8)
 - 📦 Size: 4.2GB (70% smaller than original)
 - ⚡ Speed: 25 tokens/s on M4 Max
 - 🌍 Languages: 200+
@@ -34,7 +34,7 @@
 pip install mlx mlx-lm transformers pillow
 
 # Clone this repo for examples
-git clone https://github.com/gamhtoi/mlx-models.git
+git clone https://github.com/biabia-55/mlx-models.git
 cd mlx-models
 ```
 
@@ -46,7 +46,7 @@ from PIL import Image
 
 # Load model
 tokenizer = AutoTokenizer.from_pretrained(
-    "gamhtoi/PaddleOCR-VL-MLX",
+    "biabia-55/PaddleOCR-VL-MLX",
     trust_remote_code=True
 )
 
@@ -61,7 +61,7 @@ image = Image.open("document.jpg")
 from mlx_lm import load, generate
 
 # Load model
-model, tokenizer = load("gamhtoi/Hunyuan-MT-Chimera-7B-MLX-Q8")
+model, tokenizer = load("biabia-55/Hunyuan-MT-Chimera-7B-MLX-Q8")
 
 # Translate
 prompt = "Translate to French: Hello, world!"
@@ -167,8 +167,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📮 Contact
 
-- GitHub: [@gamhtoi](https://github.com/gamhtoi)
-- Hugging Face: [@gamhtoi](https://huggingface.co/gamhtoi)
+- GitHub: [@biabia-55](https://github.com/biabia-55)
+- Hugging Face: [@biabia-55](https://huggingface.co/biabia-55)
 - Email: wheiwalee@gmail.com
 
 ## ⭐ Star History

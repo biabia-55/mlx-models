@@ -52,7 +52,7 @@ pip3 install mlx mlx-lm
 **A**: Models are automatically downloaded from Hugging Face when you first use them:
 ```python
 from mlx_lm import load
-model, tokenizer = load("gamhtoi/Hunyuan-MT-Chimera-7B-MLX-Q8")
+model, tokenizer = load("biabia-55/Hunyuan-MT-Chimera-7B-MLX-Q8")
 ```
 
 ### Q: Where are models stored?

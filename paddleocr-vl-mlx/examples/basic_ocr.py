@@ -15,7 +15,7 @@ def main():
     print("🚀 Loading PaddleOCR-VL-MLX model...")
     
     # Load tokenizer and processor
-    model_id = "gamhtoi/PaddleOCR-VL-MLX"
+    model_id = "biabia-55/PaddleOCR-VL-MLX"
     tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
     
     # Check if image path is provided
