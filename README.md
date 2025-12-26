@@ -168,8 +168,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📮 Contact
 
 - GitHub: [@biabia-55](https://github.com/biabia-55)
-- Hugging Face: [@biabia-55](https://huggingface.co/biabia-55)
+- Hugging Face: [@gamhtoi](https://huggingface.co/gamhtoi)
 - Email: wheiwalee@gmail.com
+
+> **Note**: Models are hosted on Hugging Face under `gamhtoi`, while code and documentation are on GitHub under `biabia-55`. Both accounts belong to the same author.
 
 ## ⭐ Star History
 
