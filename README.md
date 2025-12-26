@@ -11,15 +11,16 @@
 ### 1. PaddleOCR-VL-MLX
 **World's first MLX-native OCR model**
 
-- 🔗 [Model on Hugging Face](https://huggingface.co/biabia-55/PaddleOCR-VL-MLX)
+- 🔗 [Model on Hugging Face](https://huggingface.co/gamhtoi/PaddleOCR-VL-MLX)
 - 📦 Size: ~2GB
 - ⚡ Speed: 2-3s per image on M4 Max
 - 🎯 Use case: Document digitization, receipt processing, academic paper OCR
+- 🌐 **[Web UI Available](paddleocr-vl-mlx/web-ui/)** - Beautiful browser-based interface!
 
 ### 2. Hunyuan-MT-Chimera-7B-MLX-Q8
 **8-bit quantized multilingual translation model**
 
-- 🔗 [Model on Hugging Face](https://huggingface.co/biabia-55/Hunyuan-MT-Chimera-7B-MLX-Q8)
+- 🔗 [Model on Hugging Face](https://huggingface.co/gamhtoi/Hunyuan-MT-Chimera-7B-MLX-Q8)
 - 📦 Size: 4.2GB (70% smaller than original)
 - ⚡ Speed: 25 tokens/s on M4 Max
 - 🌍 Languages: 200+
